@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@drawable/ayah_background">
+
+    <TextView
+        android:id="@+id/ayah_arabic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="فَإِنَّ مَعَ الْعُسْرِ يُسْرًا"
+        android:textColor="#FFFFFF"
+        android:textSize="23sp"
+        android:gravity="center"
+        android:fontFamily="serif"
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:id="@+id/ayah_translation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Şüphesiz güçlükle beraber bir kolaylık vardır."
+        android:textColor="#E0E8DF"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:id="@+id/ayah_reference"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="İnşirah Suresi · 5. ayet"
+        android:textColor="#B6CBAF"
+        android:textSize="12sp"
+        android:gravity="center" />
+
+</LinearLayout>
